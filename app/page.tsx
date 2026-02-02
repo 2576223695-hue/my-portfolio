@@ -5,7 +5,7 @@ import { CoreCompetencyCard } from "@/components/core-competency-card";
 import { ProjectCard } from "@/components/project-card";
 import { ContactCard } from "@/components/contact-card";
 import { TechStackCard } from "@/components/tech-stack-card";
-import { ROICalculator } from "@/components/roi-calculator";
+import { DualInteractiveShowcase } from "@/components/dual-interactive-showcase";
 import { Lightbulb, Bot, Users, Code, Gamepad2, Globe, Store, MessageSquare, ExternalLink } from "lucide-react";
 
 export default function Home() {
@@ -78,9 +78,9 @@ export default function Home() {
             <CoreCompetencyCard />
           </div>
 
-          {/* ROI Calculator */}
+          {/* Dual Interactive Showcase - ROI Calculator + Discord Demo */}
           <div className="md:col-span-2 lg:col-span-3 mt-4">
-            <ROICalculator />
+            <DualInteractiveShowcase />
           </div>
 
           {/* Work Experience Section Title */}
@@ -95,7 +95,7 @@ export default function Home() {
               {/* Background Image - Banner style */}
               <div className="absolute inset-0">
                 <img 
-                  src="/images/souler-banner.png" 
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-E2TnJgtDyiPJUGttQrTR0Kd9s6anHw.png" 
                   alt="Souler - The World's First AI Live Speaker"
                   className="w-full h-full object-cover object-center"
                 />
@@ -192,7 +192,7 @@ export default function Home() {
               "Achieved 0-cost traffic through B站 organic content coverage",
               "Created role-swap mechanism to resolve team conflicts"
             ]}
-            thumbnail="/images/karnetwork.gif"
+            thumbnail="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1%E6%9C%8830%E6%97%A5%281%29.gif-fzdpd6lueaWc3lJFClOertukX7BYP1.jpeg"
             caseStudyUrl="https://www.bilibili.com/video/BV1vz4y1X7Es/?spm_id_from=333.337.search-card.all.click"
           />
           
@@ -209,10 +209,10 @@ export default function Home() {
               "Created Reddit x Discord cross-platform campaigns",
               "Built BetterDiscord translation plugin via Windsurf"
             ]}
-            thumbnail="/images/aethery.png"
+            thumbnail="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EEq6OggHc7TXmgUmeJ8NY6vrLSibvG.png"
             caseStudyUrl="https://discord.gg/vPPVQPrRZ7"
           />
-          
+
           <ProjectCard
             icon={Store}
             iconBg="bg-slate-100"
@@ -226,7 +226,7 @@ export default function Home() {
               "Created service manual with LLM assistance",
               "Reduced new employee training from 7 to 3 days"
             ]}
-            thumbnail="/images/yosen-club.jpg"
+            thumbnail="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/f12af8546b94491fb992ed1f1f11b2a-WEb6myHnnUktD1IYU5SzxZMOqJi7Wx.jpg"
             caseStudyUrl="https://www.douyin.com/user/MS4wLjABAAAAEP_IaZbGLI8prPAMTOhHvKd0N_pVmh8Y5AltFKVUYpnQi9CJ5NBHTvuRQn5vvTRl?from_tab_name=main"
           />
 
