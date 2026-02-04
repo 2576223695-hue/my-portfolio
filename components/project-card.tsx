@@ -1,5 +1,10 @@
 import type { LucideIcon } from "lucide-react";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Newspaper } from "lucide-react";
+
+interface FeaturedBadge {
+  text: string;
+  url: string;
+}
 
 interface ProjectCardProps {
   icon: LucideIcon;
@@ -11,6 +16,7 @@ interface ProjectCardProps {
   highlights: string[];
   thumbnail?: string;
   caseStudyUrl?: string;
+  featuredBadge?: FeaturedBadge;
 }
 
 export function ProjectCard({ 
@@ -22,7 +28,8 @@ export function ProjectCard({
   description, 
   highlights,
   thumbnail,
-  caseStudyUrl = "#"
+  caseStudyUrl = "#",
+  featuredBadge
 }: ProjectCardProps) {
   return (
     <div className="group rounded-2xl bg-card border border-slate-200 overflow-hidden hover:shadow-md hover:border-slate-300 transition-all duration-300">
@@ -64,6 +71,17 @@ export function ProjectCard({
         </div>
         
         <h3 className="text-lg font-semibold text-slate-900 mb-1">{title}</h3>
+        {featuredBadge && (
+          <a
+            href={featuredBadge.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-700 border border-amber-200 hover:bg-amber-200 transition-colors cursor-pointer mb-2"
+          >
+            <Newspaper className="w-3 h-3" />
+            {featuredBadge.text}
+          </a>
+        )}
         <p className="text-sm font-medium text-[#6366f1] mb-3">{role}</p>
         
         <p className="text-sm text-slate-600 mb-4 leading-relaxed">{description}</p>

@@ -118,6 +118,29 @@ export default function ResumePage() {
             <h2 className="text-2xl font-bold text-slate-900">项目经历</h2>
           </div>
           <div className="space-y-6">
+            {/* KarNetWork */}
+            <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
+              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
+                <h3 className="font-semibold text-slate-900">KarNetWork (自主创业：我的世界服务器)</h3>
+                <span className="text-sm text-slate-500">2020-06 至 2022-07</span>
+              </div>
+              <p className="text-[#6366f1] text-sm font-medium mb-4">创始人/总运营</p>
+              <ul className="space-y-2 text-sm text-slate-600">
+                <li className="flex gap-2">
+                  <span className="text-[#6366f1] mt-1">•</span>
+                  <span><strong>大型项目统筹与商业化落地：</strong>作为 KarNetWork 项目主负责人，带领团队完成产品从 0 到 1 的研发与生态搭建。在数值策划与经济系统构建中起到核心把关审核作用，有效规避了私服行业常见的"神权滥用"与"数值失衡"风险。通过精细化运营，实现同时在线人数突破 450+（超越当时头部竞品 syuu），以极低的投流成本实现了高 ROI 的用户增长与留存。</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-[#6366f1] mt-1">•</span>
+                  <span><strong>冲突解决与建设：</strong>针对团队年轻化特点，首创"思法互换"（角色互换）情景模拟机制，有效化解策划与技术岗位的协同矛盾，团队留存率显著提升。</span>
+                </li>
+                <li className="flex gap-2">
+                  <span className="text-[#6366f1] mt-1">•</span>
+                  <span><strong>UGC 生态构建：</strong>搭建玩家二创激励体系，制定皮肤与场景渲染的标准 S.O.P.，降低创作门槛，引导玩家在 B 站自发产出海量视频，覆盖 20 个搜索页，实现 0 成本流量获取。</span>
+                </li>
+              </ul>
+            </div>
+
             {/* Aethery */}
             <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
@@ -177,28 +200,9 @@ export default function ResumePage() {
                   <span className="text-[#6366f1] mt-1">•</span>
                   <span><strong>SOP 标准化：</strong>利用 LLM (Claude/GPT) 辅助编写《服务标准手册》，将非标业务结构化，新员工培训周期从 7 天缩短至 3 天。</span>
                 </li>
-              </ul>
-            </div>
-
-            {/* KarNetWork */}
-            <div className="rounded-xl bg-slate-50 border border-slate-200 p-5">
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
-                <h3 className="font-semibold text-slate-900">KarNetWork (自主创业：我的世界服务器)</h3>
-                <span className="text-sm text-slate-500">2020-06 至 2022-07</span>
-              </div>
-              <p className="text-[#6366f1] text-sm font-medium mb-4">创始人/总运营</p>
-              <ul className="space-y-2 text-sm text-slate-600">
                 <li className="flex gap-2">
                   <span className="text-[#6366f1] mt-1">•</span>
-                  <span><strong>大型项目统筹与商业化落地：</strong>作为 KarNetWork 项目主负责人，带领团队完成产品从 0 到 1 的研发与生态搭建。在数值策划与经济系统构建中起到核心把关审核作用，有效规避了私服行业常见的"神权滥用"与"数值失衡"风险。通过精细化运营，实现同时在线人数突破 450+（超越当时头部竞品 syuu），以极低的投流成本实现了高 ROI 的用户增长与留存。</span>
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-[#6366f1] mt-1">•</span>
-                  <span><strong>冲突解决与建设：</strong>针对团队年轻化特点，首创"思法互换"（角色互换）情景模拟机制，有效化解策划与技术岗位的协同矛盾，团队留存率显著提升。</span>
-                </li>
-                <li className="flex gap-2">
-                  <span className="text-[#6366f1] mt-1">•</span>
-                  <span><strong>UGC 生态构建：</strong>搭建玩家二创激励体系，制定皮肤与场景渲染的标准 S.O.P.，降低创作门槛，引导玩家在 B 站自发产出海量视频，覆盖 20 个搜索页，实现 0 成本流量获取。</span>
+                  <span><strong>项目影响力：</strong>商业模式创新获《沧州晚报》专题报道（2024.04），被誉为"校园空间改造的创新典范"。</span>
                 </li>
               </ul>
             </div>

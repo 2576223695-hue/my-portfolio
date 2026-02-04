@@ -228,6 +228,10 @@ export default function Home() {
             ]}
             thumbnail="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/f12af8546b94491fb992ed1f1f11b2a-WEb6myHnnUktD1IYU5SzxZMOqJi7Wx.jpg"
             caseStudyUrl="https://www.douyin.com/user/MS4wLjABAAAAEP_IaZbGLI8prPAMTOhHvKd0N_pVmh8Y5AltFKVUYpnQi9CJ5NBHTvuRQn5vvTRl?from_tab_name=main"
+            featuredBadge={{
+              text: "Featured in Cangzhou Evening News",
+              url: "http://czwb.bohaitoday.com/pad/content/202404/26/content_126229.html"
+            }}
           />
 
           {/* Contact Card - Spans 2 columns */}
